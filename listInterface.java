@@ -10,4 +10,4 @@ public interface listInterface
   public void remove(int index) throws ListIndexOutOfBoundsException;
   public Object get(int index) throws ListIndexOutOfBoundsException;
   public void removeAll();
-} // end ListInterface
+} // end ListInterfaces

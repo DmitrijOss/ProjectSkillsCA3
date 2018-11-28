@@ -1,4 +1,4 @@
-public class Node {		//I used this code from our Data structures Lab 2 lab
+public class Node {		//I used this code from our Data structures Lab 2
   private Object item;
   private Node next;
 

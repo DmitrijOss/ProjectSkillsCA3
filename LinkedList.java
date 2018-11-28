@@ -28,7 +28,7 @@ public class LinkedList implements listInterface{
 		  // --------------------------------------------------
 		  // Locates a specified node in a linked list.
 		  // Precondition: index is the number of the desired
-		  // node. Assumes that 1 <= index <= numItems+1 
+		  // node. Assumes that 1 <= index <= numItems+1 a
 		  // Postcondition: Returns a reference to the desired 
 		  // node.
 		  // --------------------------------------------------
