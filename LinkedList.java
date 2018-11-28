@@ -25,15 +25,18 @@ public class LinkedList implements listInterface{
 	  
 	  private Node find(int index) {
 		  Node newNode = new Node(index);
-		  // --------------------------------------------------
-		  // Locates a specified node in a linked list.
-		  // Precondition: index is the number of the desired
-		  // node. Assumes that 1 <= index <= numItems+1 a
-		  // Postcondition: Returns a reference to the desired 
-		  // node.
-		  // --------------------------------------------------
-		  return newNode;	//this isnt finished I just wanted to get rid of the errors so I could run
-		  } // end find
+		  newNode = head;
+		  int find = numItems - index;
+		  try {
+			  for(int i = 0; i < find; i++) {
+				  newNode = newNode.getNext();
+			  }
+		  }
+		  catch(ListIndexOutOfBoundsException err){
+			  System.out.println(err);
+		  }
+		  return newNode;  
+	  } // end find
 	  
 	  public void remove(int index) throws ListIndexOutOfBoundsException{
 		  
