@@ -23,7 +23,7 @@ public class LinkedList implements listInterface{
 		  
 	  }
 	  
-	public void add(int index, Object item) throws ListIndexOutOfBoundsException{
+	public void add(int index, Object item) throws ListIndexOutOfBoundsException{ //conor added 29/11/18
 		if (numItems == 0){
 			Node num1 = new Node(item);
 			head = num1;
@@ -87,7 +87,7 @@ public class LinkedList implements listInterface{
 		  return newNode;  
 	  } // end find
 	  
-	  public void remove(int index) throws ListIndexOutOfBoundsException{
+	  public void remove(int index) throws ListIndexOutOfBoundsException{ //conor added 29/11/18
 		  if (index>numItems || index<0){
 	             throw new ListIndexOutOfBoundsException("Out of boundary");
 		  }
@@ -127,7 +127,7 @@ public class LinkedList implements listInterface{
 	  }
 	  
 	  
-	  public void display(){
+	  public void display(){ //conor added 29/11/18
 		  
 		  int i = 0; // only used for displaying number of nodes
 		  

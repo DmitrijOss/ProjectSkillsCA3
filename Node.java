@@ -28,7 +28,7 @@ public class Node {		//I used this code from our Data structures Lab 2
     return next;
   } // end getNext
   
- public void display()
+ public void display() //conor added 29/11/18
 {
 	 System.out.println(item);
 }
