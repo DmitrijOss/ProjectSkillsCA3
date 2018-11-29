@@ -26,7 +26,7 @@ public class main extends JFrame implements ActionListener {
 		
 		JPanel panel = new JPanel();
 		
-		panel.add(addButton);
+		panel.add(addButton);asda
 		panel.add(removeButton);
 		panel.add(searchButton);
 		panel.add(textField);
