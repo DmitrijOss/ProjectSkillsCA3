@@ -27,6 +27,12 @@ public class Node {		//I used this code from our Data structures Lab 2
   public Node getNext() {
     return next;
   } // end getNext
+  
+ public void display()
+{
+	 System.out.println(item);
+}
+  
 
 } // end class Node
 

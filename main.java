@@ -67,6 +67,38 @@ public static void main(String[] args){
 	System.out.println("Trying to create a new branch");
 
 	System.out.println("Dillon edited this 28/11/18 15:17");
+	
+	LinkedList la = new LinkedList();
+
+
+
+
+	
+	try{
+		la.add(0,"Bread ");
+		la.add(1,"Milk");
+		la.add(2,"Cereal");
+		la.add(3,"Coffee");
+		la.add(4,"Sugar");
+		la.add(5,"Beer");
+		la.add(6,"Chicken");
+		la.add(7,"Rice");
+		la.add(8,"Wine");
+		la.add(9,"Cakes");
+	}
+	catch(ListIndexOutOfBoundsException e)
+	{
+		//e.printStackTrace();
+		System.out.println("Invalid index!!");
+	}
+
+	// Display the list
+	la.display();
+	System.out.println("List size is " + la.size());
+	
+	
+	
+	
 
 	}//end main
 
