@@ -19,12 +19,11 @@ public class LinkedList implements listInterface{
 	  }
 	  
 	  public int size() {
-		  return numItems;
-		  
+		  return numItems; 
 	  }
 	  
 	public void add(int index, Object item) throws ListIndexOutOfBoundsException{ //conor added 29/11/18
-		if (numItems == 0){
+		if (numItems == 0){   //first item
 			Node num1 = new Node(item);
 			head = num1;
 			numItems++;
