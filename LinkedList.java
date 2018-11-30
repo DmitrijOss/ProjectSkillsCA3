@@ -11,7 +11,7 @@ public class LinkedList implements listInterface{
 		
 	  public boolean isEmpty() {
 		  if(numItems != 0) {
-			  
+			  System.out.println("This was added in newBranch, I want this merged with the master branch");
 			  
 			  return false;
 		  }else {
