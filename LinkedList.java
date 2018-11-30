@@ -11,6 +11,8 @@ public class LinkedList implements listInterface{
 		
 	  public boolean isEmpty() {
 		  if(numItems != 0) {
+			  
+			  
 			  return false;
 		  }else {
 			  return true;
