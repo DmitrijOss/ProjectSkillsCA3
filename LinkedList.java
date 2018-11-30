@@ -11,9 +11,6 @@ public class LinkedList implements listInterface{
 		
 	  public boolean isEmpty() {
 		  if(numItems != 0) {
-			  System.out.println("test");
-			  System.out.println("test");
-			  System.out.println("test");
 			  return false;
 		  }else {
 			  return true;
