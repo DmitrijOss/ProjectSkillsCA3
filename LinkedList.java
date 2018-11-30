@@ -11,8 +11,7 @@ public class LinkedList implements listInterface{
 		
 	  public boolean isEmpty() {
 		  if(numItems != 0) {
-			  System.out.println("I'm creating an conflict on purpose!");
-			  return true;
+			  return false;
 		  }else {
 			  return true;
 		  }
